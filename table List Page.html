@@ -1,0 +1,25 @@
+
+<p>&larr;Back</p>
+<h1 class="vue-title">Executive Dashboard</h1>
+<div>
+</div>
+
+<h class ="oye-toe"><form action="/action_page.php">Select
+  
+  <select name="Table">
+    <option value="ED">Executive Dashboard</option>
+    <option value="CO">Created On</option>
+    <option value="E">Edit</option>
+    <option value="D">Delete</option>
+  </select>
+  </form>
+  </h>
+<div>
+</div>
+
+    <div id="app">
+        <v-client-table :columns="columns" :data="data" :options="options">
+            <a slot="edit" slot-scope="props" target="_blank" :href="props.row.edit" class="glyphicon glyphicon-edit"></a>
+            <a slot="del" slot-scope="props" target="_blank" :href="props.row.del" class="glyphicon glyphicon-trash"></a>
+        </v-client-table>
+    </div>
