@@ -1,0 +1,26 @@
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.VuePagination {
+  text-align: center;
+}
+
+.vue-title {
+  text-align: left;
+  margin-bottom: 3px;
+  color: purple;
+}
+
+.oye-toe {
+    text-align: right;
+}
+
+.glyphicon.glyphicon-trash {
+  color: #a94442;
+}
+.glyphicon.glyphicon-edit {
+  color: #3c763d;
+}
